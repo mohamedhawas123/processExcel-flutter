@@ -92,24 +92,3 @@ class HomeView extends GetView<HomeController> {
     });
   }
 }
-
-
-// Container(
-//                 padding: EdgeInsets.all(16.0),
-//                 child: Column(
-//                   children: [
-//                     Text(
-//                       'saif\'s Salary and Calculated Value',
-//                       style: TextStyle(
-//                         fontSize: 18.0,
-//                         fontWeight: FontWeight.bold,
-//                       ),
-//                     ),
-//                     SizedBox(height: 16.0),
-//                     Text('Salary: \$${5000.toStringAsFixed(2)}'),
-//                     Text('Percentage: ${10.toStringAsFixed(2)}%'),
-//                     Text(
-//                       'Calculated Value: \$${(5000 * (5000 / 10)).toStringAsFixed(2)}',
-//                     ),
-//                   ],
-//                 )),
